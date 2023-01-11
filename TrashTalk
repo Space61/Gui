@@ -1,0 +1,37 @@
+function dowait()
+        wait(0.172)
+    end
+    local tbl_main = 
+    {
+          "focus up son." , 
+          "All"
+    }
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(tbl_main))
+    dowait()
+    local tbl_main = 
+    {
+          "run my hours." , 
+          "All"
+    }
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(tbl_main))
+    dowait()
+    local tbl_main = 
+    {
+          "your so bad dont duck." , 
+          "All"
+    }
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(tbl_main))
+    dowait()
+    local tbl_main = 
+    {
+          "lol airshotted so bad." , 
+          "All"
+    }
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(tbl_main))
+    dowait()
+    local tbl_main = 
+    {
+          "ur bad kid run officials." , 
+          "All"
+    }
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(tbl_main))
