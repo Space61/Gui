@@ -1,0 +1,9 @@
+local player = game.Players.LocalPlayer
+    local GC = game:GetService("Workspace").Players:WaitForChild(player.Name):FindFirstChild("GRABBING_CONSTRAINT")
+    if GC then
+        GC:Destroy()
+        wait(0.04)
+        player.character.Humanoid.Sit = true
+        wait(0.04)
+        game.Players.LocalPlayer.Character.Humanoid:ChangeState(3)
+    end
