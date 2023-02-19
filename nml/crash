@@ -32,7 +32,7 @@ end)
 
 if isCrasher then
     local totalTools, maximumTools = 0, 1000
-    local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/theracisthub/libs/main/ocinhot"))()
+    local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Space61/Gui/main/nml/gui"))()
     local main = lib:Create("Crasher")
     local txt = main:NewLabel("Status: 0/0 %0")
     main:NewToggle("Enable","enables the crasher",true,function(bool)
